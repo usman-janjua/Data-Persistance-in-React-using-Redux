@@ -1,6 +1,4 @@
 import React, { Suspense } from "react";
-import "./App.css";
-import { connect } from "react-redux";
 import ProductListing from "./containers/ProductListing/ProductListing";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -29,4 +27,4 @@ function App() {
   );
 }
 
-export default connect(null, null)(App);
+export default App;
